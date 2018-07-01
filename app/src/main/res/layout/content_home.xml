@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fitsSystemWindows="true"
+    tools:context=".Activities.HomeActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_home" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/tab_layout_content_home"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_height="@dimen/tab_content_home_height"-->
+        <!--app:tabBackground="@color/colorPrimary"-->
+        <!--app:tabTextColor="@color/colorLightGray"-->
+        <!--app:tabSelectedTextColor="@color/colorAccent2"-->
+        <!--app:tabIndicatorColor="@color/colorAccent2"-->
+        <!--app:tabMode="scrollable"/>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_content_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

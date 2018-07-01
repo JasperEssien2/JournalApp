@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryTrans">#402196f3</color>
+    <color name="colorPrimaryDark">#2962ff</color>
+    <color name="colorAccent">#4db6ac</color>
+    <color name="colorAccent2">#ffff00</color>
+    <color name="colorChatBackground">#dddddd</color>
+    <color name="colorLightGray">#999999</color>
+    <color name="colorTextLink">#5544FF</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPink">#FFFF4081</color>
+    <color name="colorAppBackgroundBottom">#e3f2fd</color>
+    <!--<color name="colorPrimary">#009688</color>-->
+    <!--<color name="colorPrimaryTrans">#40009688</color>-->
+    <!--<color name="colorPrimaryDark">#00695c</color>-->
+    <!--<color name="colorAccent">#2196f3</color>-->
+    <!--<color name="colorAccent2">#ffff00</color>-->
+    <!--<color name="colorChatBackground">#dddddd</color>-->
+    <!--<color name="colorLightGray">#999999</color>-->
+    <!--<color name="colorTextLink">#5544FF</color>-->
+    <!--<color name="white">#ffffff</color>-->
+    <!--<color name="colorAppBackgroundBottom">#e3f2fd</color>-->
+</resources>

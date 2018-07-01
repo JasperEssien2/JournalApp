@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ViewProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_image_signup_profile_pics"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@color/colorLightGray"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="2dp"
+            app:civ_circle_background_color="@color/colorChatBackground" />
+
+        <ImageButton
+            android:id="@+id/image_button_signup_picker"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_below="@id/circle_image_signup_profile_pics"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="-10dp"
+            android:layout_toRightOf="@id/circle_image_signup_profile_pics"
+            android:background="@drawable/circle_background36dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_add_a_photo" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
